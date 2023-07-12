@@ -360,14 +360,6 @@ class Driver {
     this.options.htmlMaxRows = parseInt(this.options.htmlMaxRows, 10);
     this.options.noScripts = Boolean(+this.options.noScripts);
     this.options.extended = Boolean(+this.options.extended);
-    this.options.maxWaitPromiseTimeout = parseInt(
-      this.options.maxWaitPromiseTimeout,
-      10
-    );
-    this.options.maxWaitDNSTimeout = parseInt(
-      this.options.maxWaitDNSTimeout,
-      10
-    );
 
     if (this.options.proxy) {
       chromiumArgs.push(`--proxy-server=${this.options.proxy}`);
