@@ -545,7 +545,7 @@ class Site {
     promise,
     fallback,
     errorMessage = "Operation took too long to complete",
-    maxWait = Math.min(this.options.maxWait, 1000)
+    maxWait = this.options.maxWait
   ) {
     let timeout = null;
 
@@ -1259,7 +1259,7 @@ class Site {
         }),
         [],
         "Timeout (dns)",
-        Math.min(this.options.maxWait, 15000)
+        this.options.maxWait
       );
     };
 
