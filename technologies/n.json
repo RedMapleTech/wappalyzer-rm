@@ -58,7 +58,7 @@
       "nv.version": "^(.+)$\\;confidence:0\\;version:\\1"
     },
     "scriptSrc": "nv\\.d3(?:\\.min)?\\.js",
-    "website": "http://nvd3.org"
+    "website": "https://nvd3.org"
   },
   "Nacelle": {
     "cats": [
@@ -294,6 +294,23 @@
     "scriptSrc": "rua-api\\.ncloud\\.com/",
     "website": "https://analytics.naver.com"
   },
+  "Navidium Shipping Protection": {
+    "cats": [
+      5
+    ],
+    "description": "Navidium is a shipping insurance company that covers packages that are lost, stolen, or damaged in transit. Navidium Shipping Protection is an optional shipping protection service where, in the event of an incident (the order is damaged, lost, or stolen during transit), we will immediately re-ship any damaged, lost, or stolen products.",
+    "icon": "Navidium.svg",
+    "js": {
+      "nvdShop": "\\.myshopify\\.com"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "^.*/navidium-extension-checker\\.js$",
+    "website": "https://navidiumapp.com"
+  },
   "Neat A/B testing": {
     "cats": [
       74,
@@ -388,7 +405,7 @@
       "NS_VER": ""
     },
     "icon": "NetSuite.png",
-    "website": "http://netsuite.com"
+    "website": "https://netsuite.com"
   },
   "Netcore Cloud": {
     "cats": [
@@ -794,14 +811,14 @@
       22,
       64
     ],
-    "cpe": "cpe:2.3:a:nginx:nginx:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:f5:nginx:*:*:*:*:*:*:*:*",
     "description": "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
     "headers": {
       "Server": "nginx(?:/([\\d.]+))?\\;version:\\1",
       "X-Fastcgi-Cache": ""
     },
     "icon": "Nginx.svg",
-    "website": "http://nginx.org/en"
+    "website": "https://nginx.org/en"
   },
   "Niagahoster": {
     "cats": [
@@ -923,7 +940,7 @@
     "cpe": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
     "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser.",
     "icon": "Node.js.svg",
-    "website": "http://nodejs.org"
+    "website": "https://nodejs.org"
   },
   "NodeBB": {
     "cats": [
@@ -958,6 +975,24 @@
     ],
     "saas": true,
     "website": "https://nodeping.com"
+  },
+  "Nogin": {
+    "cats": [
+      19
+    ],
+    "description": "Nogin is a platform operating as Commerce-as-a-Service (CaaS), offering cloud-based ecommerce functionalities and infrastructure for seamless integration and development of ecommerce solutions.",
+    "icon": "Nogin.png",
+    "js": {
+      "nogin.wishlist": ""
+    },
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "requiresCategory": 6,
+    "scriptSrc": "\\.nogin\\.com/",
+    "website": "https://www.nogin.com"
   },
   "Noibu": {
     "cats": [
@@ -1139,12 +1174,13 @@
       "Node.js"
     ],
     "js": {
-      "$nuxt": ""
+      "$nuxt": "",
+      "useNuxtApp": ""
     },
     "scriptSrc": [
       "/_nuxt/"
     ],
-    "website": "https://nuxtjs.org"
+    "website": "https://nuxt.com"
   },
   "nghttpx - HTTP/2 proxy": {
     "cats": [
@@ -1170,7 +1206,7 @@
       "generator": "^nopCommerce$"
     },
     "oss": true,
-    "website": "http://www.nopcommerce.com"
+    "website": "https://www.nopcommerce.com"
   },
   "nopStation": {
     "cats": [
@@ -1183,7 +1219,7 @@
     "requires": [
       "nopCommerce"
     ],
-    "website": "http://www.nop-station.com"
+    "website": "https://www.nop-station.com"
   },
   "novomind iSHOP": {
     "cats": [

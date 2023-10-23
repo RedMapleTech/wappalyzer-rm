@@ -43,7 +43,7 @@
     "description": "FAST ESP is a service-oriented architecture development platform which is geared towards production searchable indexes. It provided a flexible framework for creating ETL applications for efficient indexing of searchable content.",
     "html": "<form[^>]+id=\"fastsearch\"",
     "icon": "FAST ESP.png",
-    "website": "http://microsoft.com/enterprisesearch"
+    "website": "https://microsoft.com/enterprisesearch"
   },
   "FAST Search for SharePoint": {
     "cats": [
@@ -57,7 +57,7 @@
       "Microsoft ASP.NET"
     ],
     "url": "Pages/SearchResults\\.aspx\\?k=",
-    "website": "http://sharepoint.microsoft.com/en-us/product/capabilities/search/Pages/Fast-Search.aspx"
+    "website": "https://sharepoint.microsoft.com/en-us/product/capabilities/search/Pages/Fast-Search.aspx"
   },
   "FUDforum": {
     "cats": [
@@ -160,7 +160,7 @@
       "connect\\.facebook.\\w+/signals/config/\\d+\\?v=([\\d\\.]+)\\;version:\\1",
       "connect\\.facebook\\.\\w+/.+/fbevents\\.js"
     ],
-    "website": "http://facebook.com"
+    "website": "https://facebook.com"
   },
   "Facil-iti": {
     "cats": [
@@ -180,7 +180,7 @@
     "icon": "Fact Finder.png",
     "scriptSrc": "Suggest\\.ff",
     "url": "(?:/ViewParametricSearch|ffsuggest\\.[a-z]htm)",
-    "website": "http://fact-finder.com"
+    "website": "https://fact-finder.com"
   },
   "FalguniThemes Nisarg": {
     "cats": [
@@ -242,7 +242,7 @@
       "jQuery.fancybox.version": "^(.+)$\\;version:\\1"
     },
     "scriptSrc": "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1",
-    "website": "http://fancyapps.com/fancybox"
+    "website": "https://fancyapps.com/fancybox"
   },
   "Fanplayr": {
     "cats": [
@@ -413,7 +413,7 @@
     },
     "icon": "Fat-Free Framework.png",
     "implies": "PHP",
-    "website": "http://fatfreeframework.com"
+    "website": "https://fatfreeframework.com"
   },
   "FatherShops": {
     "cats": [
@@ -493,7 +493,7 @@
       "Server": "Fedora"
     },
     "icon": "Fedora.png",
-    "website": "http://fedoraproject.org"
+    "website": "https://fedoraproject.org"
   },
   "Feedback Fish": {
     "cats": [
@@ -722,6 +722,7 @@
     ],
     "cpe": "cpe:2.3:a:google:firebase_cloud_messaging:*:*:*:*:*:*:*:*",
     "description": "Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps.",
+    "dom": "iframe[src*='.firebaseapp.com/']",
     "headers": {
       "vary": "x-fh-requested-host"
     },
@@ -737,7 +738,10 @@
       "/(?:([\\d.]+)/)?firebase(?:\\.min)?\\.js\\;version:\\1",
       "/firebasejs/([\\d.]+)/firebase\\;version:\\1"
     ],
-    "scripts": "\\.gstatic\\.com/firebasejs/([\\d\\.]+)/\\;version:\\1",
+    "scripts": [
+      "\\.gstatic\\.com/firebasejs/([\\d\\.]+)/\\;version:\\1",
+      "firebase(?:Config|io\\.com)"
+    ],
     "website": "https://firebase.google.com"
   },
   "Fireblade": {
@@ -748,7 +752,7 @@
       "Server": "fbs"
     },
     "icon": "Fireblade.png",
-    "website": "http://fireblade.com"
+    "website": "https://fireblade.com"
   },
   "Firepush": {
     "cats": [
@@ -870,7 +874,7 @@
       "app.cache.discussionList": "",
       "app.forum.freshness": ""
     },
-    "website": "http://flarum.org/"
+    "website": "https://flarum.org/"
   },
   "Flask": {
     "cats": [
@@ -884,7 +888,7 @@
     "icon": "Flask.png",
     "implies": "Python",
     "oss": true,
-    "website": "http://flask.pocoo.org"
+    "website": "https://flask.pocoo.org"
   },
   "Flat UI": {
     "cats": [
@@ -947,7 +951,7 @@
     "meta": {
       "generator": "^FlexCMP"
     },
-    "website": "http://www.flexcmp.com/cms/home"
+    "website": "https://www.flexcmp.com/cms/home"
   },
   "FlexSlider": {
     "cats": [
@@ -1188,7 +1192,7 @@
     "html": "(?:<a[^>]+>Powered by Flyspray|<map id=\"projectsearchform)",
     "icon": "Flyspray.png",
     "implies": "PHP",
-    "website": "http://flyspray.org"
+    "website": "https://flyspray.org"
   },
   "Flywheel": {
     "cats": [
@@ -1382,6 +1386,19 @@
     "saas": true,
     "website": "https://foodomaa.com"
   },
+  "Forethought Solve": {
+    "cats": [
+      5
+    ],
+    "description": "Forethought Solve is a live-chat widget that uses generative AI to automate responses for common questions across all channels.",
+    "icon": "Forethought Solve.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "solve-widget\\.forethought\\.ai/",
+    "website": "https://forethought.ai/platform/solve/"
+  },
   "Fork Awesome": {
     "cats": [
       17
@@ -1415,7 +1432,7 @@
       "generator": "^Fork CMS$"
     },
     "oss": true,
-    "website": "http://www.fork-cms.com"
+    "website": "https://www.fork-cms.com"
   },
   "FormAssembly": {
     "cats": [
@@ -1559,6 +1576,20 @@
     "scriptSrc": "forter\\.com",
     "website": "https://www.forter.com"
   },
+  "Fortinet FortiGate": {
+    "cats": [
+      16
+    ],
+    "cookies": {
+      "FGTServer": ""
+    },
+    "description": "Fortinet FortiGate is a family of network security appliances that provide firewall, VPN, intrusion prevention, antivirus, web filtering, and other security features to protect and secure networks and data.",
+    "icon": "Fortinet.svg",
+    "pricing": [
+      "poa"
+    ],
+    "website": "https://www.fortinet.com/products/next-generation-firewall"
+  },
   "Fortune3": {
     "cats": [
       6
@@ -1566,7 +1597,7 @@
     "html": "(?:<link [^>]*href=\"[^\\/]*\\/\\/www\\.fortune3\\.com\\/[^\"]*siterate\\/rate\\.css|Powered by <a [^>]*href=\"[^\"]+fortune3\\.com)",
     "icon": "Fortune3.png",
     "scriptSrc": "cartjs\\.php\\?(?:.*&)?s=[^&]*myfortune3cart\\.com",
-    "website": "http://fortune3.com"
+    "website": "https://fortune3.com"
   },
   "Foswiki": {
     "cats": [
@@ -1594,7 +1625,7 @@
       "foswiki.SERVERTIME": "",
       "foswiki.WIKINAME": ""
     },
-    "website": "http://foswiki.org"
+    "website": "https://foswiki.org"
   },
   "Four": {
     "cats": [
@@ -1731,6 +1762,24 @@
     "oss": true,
     "website": "https://frappeframework.com"
   },
+  "FraudLabs Pro": {
+    "cats": [
+      16
+    ],
+    "description": "FraudLabs Pro is a fraud prevention service offered by the company FraudLabs Pro, which specialises in online fraud detection and risk management for businesses.",
+    "icon": "FraudLabs Pro.png",
+    "js": {
+      "FraudLabsProAgent": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.fraudlabspro\\.com/",
+    "website": "https://www.fraudlabspro.com"
+  },
   "FreakOut": {
     "cats": [
       36
@@ -1760,7 +1809,7 @@
       "Server": "FreeBSD(?: ([\\d.]+))?\\;version:\\1"
     },
     "icon": "FreeBSD.png",
-    "website": "http://freebsd.org"
+    "website": "https://freebsd.org"
   },
   "FreeTextBox": {
     "cats": [
@@ -1774,7 +1823,7 @@
       "FTB_API": "",
       "FTB_AddEvent": ""
     },
-    "website": "http://freetextbox.com"
+    "website": "https://freetextbox.com"
   },
   "Freespee": {
     "cats": [
@@ -2003,7 +2052,7 @@
     "js": {
       "FroalaEditor.VERSION": "([\\d\\.]+)\\;version:\\1"
     },
-    "website": "http://froala.com/wysiwyg-editor"
+    "website": "https://froala.com/wysiwyg-editor"
   },
   "Front Chat": {
     "cats": [
@@ -2022,6 +2071,22 @@
     "scriptSrc": "//chat-assets\\.frontapp\\.com/",
     "website": "https://front.com"
   },
+  "Front-Commerce": {
+    "cats": [
+      108
+    ],
+    "description": "Front-Commerce is a React-based ecommerce framework that provides a development environment and tools for building online stores, offering seamless integration with backend systems through GraphQL and supporting popular platforms like Adobe Commerce, BigCommerce, OpenMage, Contentful or Prismic.",
+    "dom": "link[data-chunk*='front-commerce-src-web-theme-routes'], script[data-chunk*='front-commerce-src-web-theme-routes']",
+    "icon": "front-commerce.svg",
+    "implies": [
+      "React",
+      "GraphQL",
+      "Webpack",
+      "Node.js",
+      "PWA"
+    ],
+    "website": "https://front-commerce.com"
+  },
   "FrontPage": {
     "cats": [
       20
@@ -2033,7 +2098,7 @@
       "ProgId": "^FrontPage\\.",
       "generator": "Microsoft FrontPage(?:\\s((?:Express )?[\\d.]+))?\\;version:\\1"
     },
-    "website": "http://office.microsoft.com/frontpage"
+    "website": "https://office.microsoft.com/frontpage"
   },
   "Frontastic": {
     "cats": [
@@ -2273,7 +2338,7 @@
       "_fusion": ""
     },
     "scriptSrc": "^[^\\/]*//[ac]dn\\.fusionads\\.net/(?:api/([\\d.]+)/)?\\;version:\\1",
-    "website": "http://fusionads.net"
+    "website": "https://fusionads.net"
   },
   "FusionCharts": {
     "cats": [
