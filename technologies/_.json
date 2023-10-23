@@ -1,9 +1,6 @@
 {
   "1C-Bitrix": {
-    "cats": [
-      1,
-      6
-    ],
+    "cats": [1, 6],
     "cookies": {
       "BITRIX_SM_GUEST_ID": "",
       "BITRIX_SM_LAST_IP": "",
@@ -16,19 +13,13 @@
     },
     "icon": "1C-Bitrix.svg",
     "implies": "PHP",
-    "pricing": [
-      "onetime",
-      "mid",
-      "recurring"
-    ],
+    "pricing": ["onetime", "mid", "recurring"],
     "saas": true,
     "scriptSrc": "bitrix(?:\\.info/|/js/main/core)",
-    "website": "http://www.1c-bitrix.ru"
+    "website": "https://www.1c-bitrix.ru"
   },
   "2B Advice": {
-    "cats": [
-      67
-    ],
+    "cats": [67],
     "description": "2B Advice provides a plug-in to manage GDPR cookie consent.",
     "icon": "2badvice.png",
     "js": {
@@ -39,18 +30,14 @@
     "website": "https://www.2b-advice.com/en/data-privacy-software/cookie-consent-plugin/"
   },
   "30namaPlayer": {
-    "cats": [
-      14
-    ],
+    "cats": [14],
     "description": "30namaPlayer is a modified version of Video.js to work with videos on HTML using javascript.",
     "dom": "section[class*='player30nama']",
     "icon": "30namaPlayer.png",
     "website": "https://30nama.com/"
   },
   "33Across": {
-    "cats": [
-      36
-    ],
+    "cats": [36],
     "description": "33Across is a technology company focused on solving the challenge of consumer attention for automated advertising.",
     "dom": "iframe[src*='.33across.com'], link[href*='.33across.com'], link[href*='.tynt.com']",
     "icon": "33Across.png",
@@ -58,32 +45,22 @@
       "Tynt": ""
     },
     "saas": true,
-    "scriptSrc": [
-      "\\.33across\\.com/",
-      "\\.tynt\\.com/"
-    ],
+    "scriptSrc": ["\\.33across\\.com/", "\\.tynt\\.com/"],
     "website": "https://www.33across.com",
     "xhr": "\\.33across\\.com"
   },
   "34SP.com": {
-    "cats": [
-      88
-    ],
+    "cats": [88],
     "description": "34SP.com specialises in website hosting, discount domain names, low cost VPS servers and dedicated servers.",
     "dns": {
       "SOA": "ns(?:\\d+)?\\.34sp\\.com"
     },
     "icon": "34SP.com.svg",
-    "pricing": [
-      "recurring",
-      "low"
-    ],
+    "pricing": ["recurring", "low"],
     "website": "https://www.34sp.com"
   },
   "4-Tell": {
-    "cats": [
-      76
-    ],
+    "cats": [76],
     "cookies": {
       "4Tell": "",
       "4TellCart": "",
@@ -94,86 +71,57 @@
     "js": {
       "_4TellBoost": ""
     },
-    "pricing": [
-      "poa"
-    ],
+    "pricing": ["poa"],
     "saas": true,
     "scriptSrc": "4tellcdn\\.azureedge\\.net",
     "website": "https://4-tell.com"
   },
   "51.LA": {
-    "cats": [
-      10
-    ],
+    "cats": [10],
     "description": "51.LA is a Chinese based website visitor counter.",
     "icon": "51.LA.png",
     "js": {
       "LA.config.ck": ""
     },
-    "pricing": [
-      "freemium",
-      "recurring",
-      "payg"
-    ],
+    "pricing": ["freemium", "recurring", "payg"],
     "saas": true,
     "website": "https://www.51.la"
   },
   "5centsCDN": {
-    "cats": [
-      31
-    ],
+    "cats": [31],
     "description": "5centsCDN is a content delivery networks service provider.",
     "dom": "link[href*='.5centscdn.com/']",
     "headers": {
       "x-cdn": "^5centsCDN$"
     },
     "icon": "5centsCDN.svg",
-    "pricing": [
-      "recurring",
-      "low"
-    ],
+    "pricing": ["recurring", "low"],
     "scriptSrc": "\\.5centscdn\\.com/",
     "website": "https://www.5centscdn.net"
   },
   "6sense": {
-    "cats": [
-      32,
-      76
-    ],
+    "cats": [32, 76],
     "description": "6sense is a B2B predictive intelligence platform for marketing and sales.",
     "headers": {
       "Content-Security-Policy": "\\.6sc\\.co/"
     },
     "icon": "6sense.svg",
-    "pricing": [
-      "poa",
-      "high",
-      "recurring"
-    ],
+    "pricing": ["poa", "high", "recurring"],
     "saas": true,
     "scriptSrc": "\\.6sc\\.co/",
     "website": "https://6sense.com"
   },
   "8base": {
-    "cats": [
-      3,
-      62
-    ],
+    "cats": [3, 62],
     "description": "8base is a low-code development platform for building and running enterprise-grade digital products including SaaS solutions, marketplaces and other go-to-market applications.",
     "icon": "8base.svg",
-    "pricing": [
-      "low",
-      "freemium",
-      "recurring"
-    ],
+    "pricing": ["low", "freemium", "recurring"],
     "saas": true,
     "website": "https://8base.com",
     "xhr": "api\\.8base\\.com"
   },
   "<model-viewer>": {
-    "cats": [
-      105
-    ],
+    "cats": [105],
     "description": "<model-viewer> is an open-source web component developed by Google and maintained through GitHub. <model-viewer> aims at putting 3D content on the web easily with a few lines of HTML code. This was first introduced with Chrome 72 in July 2019 and enables users to view 3D in the browser and mobile devices.",
     "dom": "model-viewer",
     "icon": "model-viewer.svg",
@@ -182,9 +130,7 @@
     "website": "https://modelviewer.dev"
   },
   "@sulu/web": {
-    "cats": [
-      59
-    ],
+    "cats": [59],
     "icon": "Sulu.svg",
     "js": {
       "web.startComponents": ""
@@ -192,9 +138,7 @@
     "website": "https://github.com/sulu/web-js"
   },
   "_hyperscript ": {
-    "cats": [
-      59
-    ],
+    "cats": [59],
     "description": "_​hyperscript is a scripting language for adding interactivity to the front-end.",
     "icon": "_hyperscript.png",
     "js": {
