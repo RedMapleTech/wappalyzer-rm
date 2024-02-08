@@ -590,7 +590,7 @@
       29,
       25
     ],
-    "cpe": "cpe:2.3:a:elasticsearch:kibana:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:elastic:kibana:*:*:*:*:*:*:*:*",
     "description": "Kibana is an open-source data visualisation dashboard for Elasticsearch. It provides visualisation capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data.",
     "headers": {
       "kbn-name": "kibana",

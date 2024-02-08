@@ -4342,7 +4342,7 @@
     "cats": [
       8
     ],
-    "cpe": "cpe:2.3:a:atlassian:confluence:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:atlassian:confluence_server:*:*:*:*:*:*:*:*",
     "description": "Atlassian Confluence is a web-based collaboration wiki tool.",
     "dom": {
       "li.print-only": {
