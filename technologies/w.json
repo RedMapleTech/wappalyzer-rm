@@ -1349,7 +1349,7 @@
     "cookies": {
       "usces_cookie": ""
     },
-    "cpe": "cpe:2.3:a:welcart:welcart:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:collne:welcart:*:*:*:*:*:*:*:*",
     "description": "Welcart is a free ecommerce plugin for WordPress with top market share in Japan.",
     "html": [
       "<link[^>]+?href=\"[^\"]+usces_default(?:\\.min)?\\.css",

@@ -872,7 +872,7 @@
     "cats": [
       34
     ],
-    "cpe": "cpe:2.3:a:mariadb_project:mariadb:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:mariadb:mariadb:*:*:*:*:*:*:*:*",
     "description": "MariaDB is an open-source relational database management system compatible with MySQL.",
     "icon": "mariadb.svg",
     "website": "https://mariadb.org"
@@ -1177,7 +1177,7 @@
     "cats": [
       32
     ],
-    "cpe": "cpe:2.3:a:mautic:mautic:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:acquia:mautic:*:*:*:*:*:*:*:*",
     "description": "Mautic is a free and open-source marketing automation tool for Content Management, Social Media, Email Marketing, and can be used for the integration of social networks, campaign management, forms, questionnaires, reports, etc.",
     "icon": "mautic.svg",
     "js": {

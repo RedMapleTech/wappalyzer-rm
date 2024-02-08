@@ -938,7 +938,7 @@
     "cats": [
       22
     ],
-    "cpe": "cpe:2.3:a:openbsd:openbsd:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:o:openbsd:openbsd:*:*:*:*:*:*:*:*",
     "excludes": "Apache HTTP Server",
     "headers": {
       "Server": "^OpenBSD httpd"

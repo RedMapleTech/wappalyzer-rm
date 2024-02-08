@@ -968,7 +968,7 @@
       22,
       46
     ],
-    "cpe": "cpe:2.3:a:intel:active_management_technology:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:o:intel:active_management_technology_firmware:*:*:*:*:*:*:*:*",
     "description": "Intel Active Management Technology (AMT) is a proprietary remote management and control system for personal computers with Intel CPUs.",
     "headers": {
       "Server": "Intel\\(R\\) Active Management Technology(?: ([\\d.]+))?\\;version:\\1"

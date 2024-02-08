@@ -2015,7 +2015,7 @@
     "cookies": {
       "PLAY_SESSION": ""
     },
-    "cpe": "cpe:2.3:a:playframework:play_framework:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:lightbend:play_framework:*:*:*:*:*:*:*:*",
     "icon": "Play.svg",
     "implies": "Scala",
     "website": "https://www.playframework.com"

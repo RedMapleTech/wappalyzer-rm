@@ -1575,7 +1575,7 @@
     "cats": [
       1
     ],
-    "cpe": "cpe:2.3:a:bolt:bolt:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:boltcms:bolt:*:*:*:*:*:*:*:*",
     "icon": "Bolt CMS.png",
     "implies": "PHP",
     "meta": {
