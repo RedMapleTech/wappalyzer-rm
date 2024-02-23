@@ -9,21 +9,15 @@ const Wappalyzer = require("./wappalyzer");
 const { setTechnologies, setCategories, analyze, analyzeManyToMany, resolve } =
   Wappalyzer;
 
-const { CHROMIUM_BIN, CHROMIUM_DATA_DIR, CHROMIUM_WEBSOCKET, CHROMIUM_ARGS } =
-  process.env;
+const { CHROMIUM_BIN, CHROMIUM_WEBSOCKET, CHROMIUM_ARGS } = process.env;
 
 const chromiumArgs = CHROMIUM_ARGS
   ? CHROMIUM_ARGS.split(" ")
   : [
-      "--headless",
-      "--single-process",
       "--no-sandbox",
-      "--no-zygote",
       "--disable-gpu",
-      "--ignore-certificate-errors",
-      "--allow-running-insecure-content",
-      "--disable-web-security",
-      `--user-data-dir=${CHROMIUM_DATA_DIR || "/tmp/chromium"}`,
+      "--disable-dev-shm-usage",
+      "--disable-setuid-sandbox",
     ];
 
 const extensions = /^([^.]+$|\.(asp|aspx|cgi|htm|html|jsp|php)$)/;
@@ -381,11 +375,11 @@ class Driver {
           });
         } else {
           this.browser = await puppeteer.launch({
+            headless: "old",
             ignoreHTTPSErrors: true,
-            acceptInsecureCerts: true,
             args: chromiumArgs,
             executablePath: CHROMIUM_BIN,
-            timeout: 5000,
+            timeout: 10000,
           });
         }
 
